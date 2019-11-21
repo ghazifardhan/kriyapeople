@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
     Text,
 } from 'react-native';
-import { Consumer, ContextType } from '../context/Context'
+import { ContextType } from '../context/Context'
 
 export default class HeaderRightText extends Component {
     static contextType = ContextType;

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
     View,
 } from 'react-native';
-import { Toolbar, HeaderRightText, FlatListAdapter, AddToCart } from '../components'
+import { HeaderRightText, FlatListAdapter, AddToCart } from '../components'
 
 export default class Home extends Component {
 

@@ -2,7 +2,6 @@ import React from 'react';
 import { getTodos } from '../api/api';
 
 let ContextType;
-// const Context = React.createContext(null);
 const { Provider, Consumer } = (ContextType = React.createContext());
 
 class Context extends React.PureComponent {

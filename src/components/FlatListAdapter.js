@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import {
-    View,
-    Text,
-    Button,
-    TouchableOpacity,
     FlatList
 } from 'react-native';
 import { ContextType } from '../context/Context'

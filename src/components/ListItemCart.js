@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import {
     View,
-    Text,
-    Button,
-    TouchableOpacity
+    Text
 } from 'react-native';
 import PropTypes from 'prop-types';
-import { ButtonMinus, ButtonPlus, TextQty } from './index'
-import { Context, Consumer } from '../context/Context';
+import { TextQty } from './index'
 
 export default class ListItemCart extends Component {
 

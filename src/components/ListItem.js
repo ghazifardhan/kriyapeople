@@ -2,12 +2,9 @@ import React, { Component } from 'react';
 import {
     View,
     Text,
-    Button,
-    TouchableOpacity
 } from 'react-native';
 import PropTypes from 'prop-types';
 import { ButtonMinus, ButtonPlus, TextQty } from './index'
-import { Context, Consumer } from '../context/Context';
 
 export default class ListItem extends Component {
 

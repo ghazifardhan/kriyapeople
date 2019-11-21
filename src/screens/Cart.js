@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import {
-    View,
-    Text,
-    ToolbarAndroid
+    View
 } from 'react-native';
-import { Consumer } from '../context/Context';
 import { HeaderRightText, FlatListCartAdapter, Checkout } from '../components';
 
 export default class Cart extends Component {
